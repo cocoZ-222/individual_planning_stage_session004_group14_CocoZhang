@@ -1,1 +1,10 @@
+library(tidyverse)
+library(repr)
+library(tidymodels)
+options(repr.matrix.max.rows = 6)
+
+players <- read_csv("players.csv")
+players
+sessions <- read_csv("sessions.csv")
+sessions
 
